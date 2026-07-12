@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="4.00">
+  <NFe>
+    <infNFe Id="NFe35260404742665000121650070000512761566966688" versao="4.00">
+      <ide>
+        <cUF>35</cUF>
+        <mod>65</mod>
+        <serie>7</serie>
+        <nNF>51276</nNF>
+        <dhEmi>2026-04-26T20:58:08-03:00</dhEmi>
+      </ide>
+      <emit>
+        <CNPJ>04742665000121</CNPJ>
+        <xNome>Mercado Violeta Ltda EPP</xNome>
+      </emit>
+      <det nItem="1">
+        <prod>
+          <cProd>893</cProd>
+          <cEAN>SEM GTIN</cEAN>
+          <xProd>MACA GALA KG</xProd>
+          <NCM>08081000</NCM>
+          <uCom>kg</uCom>
+          <qCom>0.8500</qCom>
+          <vUnCom>9.98</vUnCom>
+          <vProd>8.48</vProd>
+        </prod>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>1234</cProd>
+          <cEAN>7891234567890</cEAN>
+          <xProd>ARROZ TIPO 1 5KG</xProd>
+          <NCM>10063021</NCM>
+          <uCom>un</uCom>
+          <qCom>1.0000</qCom>
+          <vUnCom>29.90</vUnCom>
+          <vProd>29.90</vProd>
+        </prod>
+      </det>
+      <total>
+        <ICMSTot>
+          <vNF>38.38</vNF>
+        </ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+  <protNFe versao="4.00">
+    <infProt>
+      <chNFe>35260404742665000121650070000512761566966688</chNFe>
+    </infProt>
+  </protNFe>
+</nfeProc>
