@@ -13,6 +13,10 @@ class ParseErro(NFeErro):
     """A página foi baixada mas não deu para extrair os dados da nota."""
 
 
+class ConfigErro(NFeErro):
+    """Configuração ausente ou inválida (ex.: NFE_DB_URL não definida)."""
+
+
 class UFNaoSuportada(ParseErro):
     """Não há parser de HTML para a UF da nota (só temos SP por enquanto).
 

@@ -6,3 +6,6 @@ __pycache__/
 dist/
 build/
 *.egg-info/
+
+# migrations ficam no projeto (para o nfe-migrate) mas fora do git público
+migrations/

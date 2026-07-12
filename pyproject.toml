@@ -11,9 +11,12 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
+# persistência no Supabase (etapa 2) — mantém o parser-núcleo leve
+db = ["psycopg[binary]>=3.1", "python-dotenv>=1.0"]
 
 [project.scripts]
 nfe = "nfe.cli:main"
+nfe-migrate = "nfe.db:cli_migrar"
 
 [build-system]
 requires = ["hatchling"]
